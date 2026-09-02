@@ -20,7 +20,7 @@ The rule: **more networks = more network bits**, and the only place to get them 
 
 Use powers of 2 to determine how many bits to borrow:
 
-| Bits Borrowed | Networks Created |
+| Bits Borrowed | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created |
 |---|---|
 | 1 | 2 |
 | 2 | 4 |
