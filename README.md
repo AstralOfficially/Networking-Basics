@@ -79,4 +79,14 @@ Count the remaining host bits (0s) in your new mask, then apply:
 
 This same process works regardless of address class (A, B, or C) — the math doesn't change, just which octet you're working in.
 
+## Practice - 5 Network
+
+Current
+IP                   192.168.1.0 or 192.168.1.0/24
+Subnet Mask          255.255.255.0
+
+
+
+
+
 
