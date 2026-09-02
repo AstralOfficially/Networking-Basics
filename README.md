@@ -100,7 +100,9 @@ Subnet Mask(255.255.255.0)
 **We jumped 3 steps to 8; thus, we hacked 3 bits from HOST Bits**
 
 Hacked Bits : 11111111.11111111.11111111.XXX00000
-New Subnet Mask
+
+New Subnet Mask : 11111111.11111111.11111111.11100000
+
 
 
 
