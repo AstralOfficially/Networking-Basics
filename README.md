@@ -84,12 +84,12 @@ Current
 IP                   192.168.1.0 or 192.168.1.0/24
 Subnet Mask          255.255.255.0
 
-Step 1. Convert mask to binary.
+### Step 1. Convert mask to binary.
 
 Subnet Mask(255.255.255.0)
 11111111.11111111.11111111.00000000
 
-
+### 2. Determine bits to borrow (smallest power of 2 ≥ number of networks needed).
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
