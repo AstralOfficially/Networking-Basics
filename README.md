@@ -6,7 +6,7 @@ A quick-reference guide for taking a single network and dividing it into multipl
 
 ## Why Subnet at All?
 
-Keeping everything — wireless devices, IoT gadgets, servers, and user machines — on one flat network is a security risk. Subnetting lets you split that single network into isolated segments, each with its own address range.
+Keeping everything, wireless devices, IoT gadgets, servers, and user machines — on one flat network is a security risk. Subnetting lets you split that single network into isolated segments, each with its own address range.
 
 ## Step 1: Convert the Subnet Mask to Binary
 
