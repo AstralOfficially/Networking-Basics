@@ -20,8 +20,7 @@ The rule: **more networks = more network bits**, and the only place to get them 
 
 Use powers of 2 to determine how many bits to borrow:
 
-| Bits Borrowed | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created |
-|---|---|
+| Bits Borrowed | Networks Created |
 | 1 | 2 |
 | 2 | 4 |
 | 3 | 8 |
@@ -90,8 +89,8 @@ Step 1. Convert mask to binary.
 Subnet Mask(255.255.255.0)
 11111111.11111111.11111111.00000000
 
-| Table | Reference |
-|---|---|---|---|---|---|---|---|
+| Table | Reference | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created |
+|---|---|---|---|---|---|---|---|---|---|
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
 |256 | 128| 64 | 32 | 16 | 8 | 4 | 2 | ->we need 5 Network from this reference, 
                            5           ->5 falls under 8, so if we count the number of jumps
