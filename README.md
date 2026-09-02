@@ -93,9 +93,9 @@ Subnet Mask(255.255.255.0)
 | Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
-|256 | 128| 64 | 32 | 16 | 8 | 4 | 2 | ->we need 5 Network from this reference, 
-                           5           ->5 falls under 8, so if we count the number of jumps
-                           3  2  1     ->we jump 3 steps to 8, thus we hacked 3 bits from HOST Bits
+|256 | 128| 64 | 32 | 16 | 8 | 4 | 2 |           ->we need 5 Network from this reference, 
+                                     5           ->5 falls under 8, so if we count the number of jumps
+                                     3  2  1     ->we jump 3 steps to 8, thus we hacked 3 bits from HOST Bits
 
 
 
