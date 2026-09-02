@@ -79,8 +79,4 @@ Count the remaining host bits (0s) in your new mask, then apply:
 
 This same process works regardless of address class (A, B, or C) — the math doesn't change, just which octet you're working in.
 
-## Practice Exercise
 
-Take a `192.168.1.0/24` network and split it into **5** subnets instead of 4. Work out:
-- The new subnet mask (decimal and CIDR)
-- Each subnet's address range
