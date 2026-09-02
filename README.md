@@ -95,8 +95,8 @@ Subnet Mask(255.255.255.0)
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
 |256 | 128| 64 | 32 | 16 | 8 | 4 | 2 |       
 | | |  |  |  | 5 | falls under 8 | so if we count the number of jumps |              
-| | |  |  |  | 3 | 2 | 1 |           ->5 falls under 8, so if we count the number of jumps
-                                     ->we jump 3 steps to 8, thus we hacked 3 bits from HOST Bits
+| | |  |  |  | 3 | 2 | 1 |           
+We jumped 3 steps to 8; thus, we hacked 3 bits from HOST Bits
 
 
 
