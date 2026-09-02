@@ -89,8 +89,9 @@ Step 1. Convert mask to binary.
 Subnet Mask(255.255.255.0)
 11111111.11111111.11111111.00000000
 
-| Table | Reference | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created | Networks Created |
-|---|---|---|---|---|---|---|---|---|---|
+
+| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
 |256 | 128| 64 | 32 | 16 | 8 | 4 | 2 | ->we need 5 Network from this reference, 
                            5           ->5 falls under 8, so if we count the number of jumps
