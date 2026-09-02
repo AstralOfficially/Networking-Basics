@@ -106,6 +106,7 @@ Hacked Bits : 11111111.11111111.11111111.XXX00000
 New Subnet Mask : 11111111.11111111.11111111.11100000
 
 ### Step 4. Convert back to decimal/CIDR, find the increment, and map out ranges.
+
 # Subnet Plan: 192.168.1.0/24 (Divided into 5+ Subnets)
 
 - **Original Network:** `192.168.1.0/24`
