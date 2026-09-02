@@ -89,8 +89,8 @@ Subnet Mask          255.255.255.0
 Subnet Mask(255.255.255.0)
 11111111.11111111.11111111.00000000
 
-### 2. Determine bits to borrow (smallest power of 2 ≥ number of networks needed).
-
+### Step 2. Determine bits to borrow (smallest power of 2 ≥ number of networks needed).
+| Col 1 | Col 2 | Col 3 | Col 4 | Col 5 | Col 6 | Col 7 | Col 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |128 | 64 | 32 | 16 |  8 | 4 | 2 | 1 |
 |256 | 128| 64 | 32 | 16 | 8 | 4 | 2 |       
@@ -98,6 +98,8 @@ Subnet Mask(255.255.255.0)
 | | |  |  |  | 3 | 2 | 1 |           
 
 **We jumped 3 steps to 8; thus, we hacked 3 bits from HOST Bits**
+
+### Step 3. Flip those bits to create the new mask.
 
 Hacked Bits : 11111111.11111111.11111111.XXX00000
 
